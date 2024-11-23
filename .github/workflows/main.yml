@@ -3,7 +3,7 @@ on:
   push:
     branches:
      - main
-  jobs:
+jobs:
   locust-test:
    runs-on: ubuntu-latest
    steps:
